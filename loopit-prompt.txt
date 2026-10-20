@@ -1,0 +1,5 @@
+Create a mobile-friendly 2D pixel character test using the attached pokemon-pixel-atlas.png and pokemon-pixel-atlas.json.
+Use all six supplied characters: Pikachu, Charizard, Eevee, Gengar, Snorlax, and Mewtwo. Read the frame rectangles, named animations, per-character anchors, and animationSettings from the JSON.
+Show the selected character on a simple grass area. Provide character selection, Idle/Walk controls, and Down/Left/Right/Up direction controls. Start with pikachu_idle_down. Loop clips at their supplied timing.
+Read each frame's dimensions from the JSON (64x64 for small characters, 128x128 for Charizard and Mewtwo). Disable image smoothing and use integer scaling. Position each character using characters[name].anchor as its ground pivot; never recenter each frame.
+Use the supplied sprites directly. Keep all primary interface text in English and controls comfortably touch-sized. For this step, only implement character loading and animation viewing.
